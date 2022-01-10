@@ -3,3 +3,11 @@ INSERT INTO auteurs (id, nom, prenom) VALUES (2, 'Salia','MILLOGO');
 INSERT INTO auteurs (id, nom, prenom) VALUES (3, 'Lassina','KANE');
 INSERT INTO auteurs (id, nom, prenom) VALUES (4, 'MAlick','DERRA');
 INSERT INTO auteurs (id, nom, prenom) VALUES (5, 'Rock','DIARRA');
+
+
+
+INSERT INTO articles (id, date_publication, text, titre, auteur_id) VALUES (1, parsedatetime('17-09-2012 18:47:52.690', 'dd-MM-yyyy hh:mm:ss.SS'),'Mon article 1','Mon titre 1', 1);
+INSERT INTO articles (id, date_publication, text, titre, auteur_id) VALUES (2, parsedatetime('17-09-2012 18:47:52.690', 'dd-MM-yyyy hh:mm:ss.SS'),'Mon article 2','Mon titre 2', 1);
+INSERT INTO articles (id, date_publication, text, titre, auteur_id) VALUES (3, parsedatetime('17-09-2012 18:47:52.690', 'dd-MM-yyyy hh:mm:ss.SS'),'Mon article 3','Mon titre 3', 1);
+INSERT INTO articles (id, date_publication, text, titre, auteur_id) VALUES (4, parsedatetime('17-09-2012 18:47:52.690', 'dd-MM-yyyy hh:mm:ss.SS'),'Mon article 4','Mon titre 4', 2);
+INSERT INTO articles (id, date_publication, text, titre, auteur_id) VALUES (5, parsedatetime('17-09-2012 18:47:52.690', 'dd-MM-yyyy hh:mm:ss.SS'),'Mon article 5','Mon titre 5', 3);
