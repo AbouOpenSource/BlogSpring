@@ -1,0 +1,5 @@
+INSERT INTO auteurs (id, nom, prenom) VALUES (1, 'Anna','BERRO');
+INSERT INTO auteurs (id, nom, prenom) VALUES (2, 'Salia','MILLOGO');
+INSERT INTO auteurs (id, nom, prenom) VALUES (3, 'Lassina','KANE');
+INSERT INTO auteurs (id, nom, prenom) VALUES (4, 'MAlick','DERRA');
+INSERT INTO auteurs (id, nom, prenom) VALUES (5, 'Rock','DIARRA');
